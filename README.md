@@ -1,1 +1,1 @@
-# github-actons-practice
+# github-actions-practice
