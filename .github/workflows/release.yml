@@ -9,7 +9,7 @@ jobs:
     env:
       VERSION: ${{ github.ref_name }}
     permissions:
-      contexts: write
+      contents: write
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-go@v5
