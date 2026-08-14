@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       VERSION: ${{ github.ref_name }}
-    permission:
+    permissions:
       contexts: write
     steps:
       - uses: actions/checkout@v4
