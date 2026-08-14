@@ -1,5 +1,5 @@
 name: Auto cancel
-on: pull-request
+on: pull_request
 concurrrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
