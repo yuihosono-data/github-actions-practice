@@ -1,6 +1,6 @@
 name: Parallel jobs
 on: push
-job:
+jobs:
   first:
     runs-on: ubuntu-latest
     steps:
